@@ -1,0 +1,31 @@
+"site_ID","COMID","ID","StreamOrder","logtotco2g_per_m2","extra_name","group","perm_stat","perm_lat","perm_lon","gps_lat","gps_lon","NHD_lat","NHD_lon","stream_nam","work_window"
+"C10",24423347,9,3,3.75,"","RC3","RC3 permitted",NA,NA,46.649199,-121.300698,46.649199,-121.300698,"Clear Creek ",NA
+"J21",24423879,9,1,3.37,"","RC3","RC3 permitted",NA,NA,47.036739,-121.16403,47.036739,-121.16403,"Jungle Creek",NA
+"S02",24422975,9,5,4.69,"","RC2","RC2 permitted",46.97551,-121.15857,NA,NA,46.97551,-121.15857,"Bumping River","Yes "
+"S04",24423139,9,2,5.13,"","RC2","RC2 permitted",46.81098,-121.06963,NA,NA,46.81098,-121.06963,"North Fork Rattlesnake Creek","Yes "
+"S08",24422835,9,4,4.53,"","RC2","RC2 permitted",47.02177,-121.14341,NA,NA,47.02177,-121.14341,"Little Naches River","Yes "
+"S16",24126011,9,3,4.79,"","RC2","RC2 permitted",47.42067,-121.14629,NA,NA,47.42067,-121.14629,"Cooper River","Yes "
+"S17",24125999,9,3,5.01,"","RC2","RC2 permitted",47.39473,-121.10328,NA,NA,47.39473,-121.10328,"Cooper River","Yes "
+"S18",24125873,9,5,5.03,"","RC2","RC2 permitted",47.39479,-121.09626,NA,NA,47.39479,-121.09626,"Cle Elum River","No "
+"S19",24125729,9,3,4.36,"","RC2","not permitted",NA,NA,47.258225,-120.904118,47.25798954,-120.9044823,"West Fork Teanaway River",NA
+"S21",24126059,9,5,4.68,"","RC2","RC2 permitted",47.17725,-121.02867,NA,NA,47.17725,-121.02867,"Yakima River","Yes "
+"S21R",24126061,9,5,4.83,"","RC2","not permitted",NA,NA,47.185797,-121.043826,47.185797,-121.043826,"Yakima River",NA
+"S23",24125789,9,6,4.73,"","RC2","RC2 permitted",47.18589,-120.92068,47.185944,-120.918817,47.1848294,-120.9190267,"Yakima River","Yes "
+"S27R",24126823,9,2,3.62,"","RC2","not permitted",NA,NA,47.260155,-121.176851,47.260155,-121.176851,"Silver Creek",NA
+"S30",23100392,9,4,3.63,"","RC2","RC2 permitted",46.13516,-120.52004,NA,NA,46.13516,-120.52004,"Satus Creek","Yes "
+"S33",23099694,9,7,1.54,"","RC2","RC2 permitted",46.26534,-120.11103,NA,NA,46.26534,-120.11103,"Yakima River","No "
+"S34",23100242,9,5,1.1,"","RC2","RC2 permitted",46.26426,-120.11472,NA,NA,46.26426,-120.11472,"Satus Creek","Yes "
+"S39",23100434,9,2,3.37,"","RC2","RC2 permitted",46.01691,-120.65001,46.016704,-120.649701,46.016704,-120.649701,"Satus Creek","Yes "
+"S50",24125037,9,6,2.87,"","RC2","not permitted",NA,NA,46.631447,-120.521815,46.631447,-120.521815,"Yakima River","Yes "
+"S57",23099864,9,7,4.09,"","RC2","RC2 permitted",46.58648,-120.46084,NA,NA,46.58648,-120.46084,"Yakima River","No "
+"S62",24423847,9,1,3.62,"","RC2","RC2 permitted",47.05879,-121.28862,NA,NA,47.05879,-121.28862,"Alder Creek","No "
+"S67",24125193,9,6,4.07,"","RC2","not permitted",NA,NA,46.855643,-120.483696,46.85542836,-120.4841988,"Yakima River",NA
+"S73",24125421,9,6,4.05,"","RC2","not permitted",NA,NA,46.98778012,-120.5710861,46.98778012,-120.5710861,"Yakima River",NA
+"S75",24131135,9,4,3.37,"","RC2","not permitted",NA,NA,47.017577,-120.51748,47.017577,-120.51748,"Wilson Creek",NA
+"S82",23099884,9,4,2.27,"","RC2","not permitted",NA,NA,46.53837,-120.480372,46.53837,-120.480372,"Ahtanum Creek",NA
+"T02",23099678,9,7,1.6,"Yakima at Mabton","RC2","RC2 permitted",46.232,-119.99993,46.232095,-119.999901,46.232095,-119.999901,"Yakima River","No "
+"T03",23099844,9,7,2.69,"Yakima at Union Gap","RC2","RC2 permitted",46.53459,-120.46653,46.530817,-120.470337,46.530817,-120.470337,"Yakima River","No "
+"T05P",24422823,9,4,4.78,"Little Naches at Nile","RC2","RC2 permitted",46.98904,-121.09921,NA,NA,46.98904,-121.09921,"Little Naches River",NA
+"T06",24422913,NA,3,4.012729331,"American River","RC2","RC2 permitted",46.97777,-121.16953,NA,NA,46.97777,-121.16953,"American River","Yes "
+"T07",23107212,9,2,0.77,"Yakima at Kiona","RC2","RC2 permitted",46.25424,-119.47369,46.255319,-119.47405,46.255319,-119.47405,"Yakima River","Yes "
+"U21",24126401,9,3,4.64,"","RC3","RC3 permitted",NA,NA,46.855335,-120.484397,46.85504023,-120.4846022,"Umtanum Creek  ",NA
