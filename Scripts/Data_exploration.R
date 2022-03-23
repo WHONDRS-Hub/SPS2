@@ -29,11 +29,11 @@ loc = read.csv(paste0(geo.input,"022522_all_sites_NHD_streamline_matched_v2.csv"
 df = Reduce(function(x,y)merge(x,y, all = T, by = c('site_ID','COMID','ID')),list(topo,stream.out,climate,hydro,land,ppl,model.out.2)) #
 
 
-test = merge(stream.out,unique(model.out.2), by = c("site_ID","COMID","ID","StreamOrde"), all= T)
+#test = merge(stream.out,unique(model.out.2), by = c("site_ID","COMID","ID","StreamOrde"), all= T)
 
-df.all = merge(df,unique(model.out), by = c("COMID","ID","StreamOrde"), all= T)
+#df.all = merge(df,unique(model.out), by = c("COMID","ID","StreamOrde"), all= T)
 
-colnames(df.all)= gsub("StreamOrde","StreamOrder",colnames(df.all))
+colnames(df)= gsub("StreamOrde","StreamOrder",colnames(df))
 # Plots
 
 # Hist of the slope
@@ -82,11 +82,11 @@ ggplot(df.all, aes(color = CAT_STREAM_SLOPE, y = logtotco2g_per_m2, x = StreamOr
 #ggsave(file=paste0("",Sys.Date(),".png"),width = 7.38, height = 7.38)
 # Setting a threshold for the slope based on the slope histogram
 
-slope.threshold = 0.01
-
+slope.threshold = 0.005
+df.all = df
 df2 = subset(df.all,df.all$CAT_STREAM_SLOPE <= slope.threshold)
 
-write.csv(df2,"Filtered_sites_by_gradient.csv",row.names = F)
+write.csv(df2,"Filtered_sites_by_gradient_0-005.csv",row.names = F)
 # Plot regression again with filtered data
 
 ggplot(df2, aes(color = CAT_STREAM_SLOPE, y = logtotco2g_per_m2, x = StreamOrder)) + coord_cartesian()+
